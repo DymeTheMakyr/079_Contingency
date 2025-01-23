@@ -5,7 +5,7 @@ using Exiled.API.Features.Doors;
 using Exiled.Events.EventArgs.Map;
 using PlayerRoles;
 
-namespace _079_Contingency.Handlers;
+namespace Contingency_079.Handlers;
 
 public class MapHandler {
     public void OnAnnouncingScpTermination(AnnouncingScpTerminationEventArgs ev) {

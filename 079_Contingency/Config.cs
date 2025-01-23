@@ -1,6 +1,6 @@
 ﻿using Exiled.API.Interfaces;
 
-namespace _079_Contingency;
+namespace Contingency_079;
 
 public class Config : IConfig {
     public bool IsEnabled { get; set; }

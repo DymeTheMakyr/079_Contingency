@@ -1,8 +1,8 @@
-﻿using _079_Contingency.Handlers;
+﻿using Contingency_079.Handlers;
 using Exiled.API.Features;
 using Map = Exiled.Events.Handlers.Map;
 
-namespace _079_Contingency;
+namespace Contingency_079;
 public class PluginCore : Plugin<Config> {
     public PluginCore Instance;
 
