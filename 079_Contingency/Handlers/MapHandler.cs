@@ -12,7 +12,7 @@ public class MapHandler {
         Player[] scps = Player.Get(Team.SCPs).ToArray();
         if (scps.Length > 1) return;
         if (scps[0].Role != RoleTypeId.Scp079) return;
-        Cassie.Message(".g6 SCP 0 7 9 has initiated Big Red Surprise Protocol. All personnel be on high alert Bell_Start", false, true, true);
+        Cassie.Message(".g6 SCP - 0 7 9 has initiated pitch_0.9 Big Red Surprise pitch_1.00 Protocol \n All personnel be on high alert Bell_End", false, true, true);
         switch (Warhead.IsDetonated) {
             case false:
                 scps[0].Role.Set(RoleTypeId.Scp939, RoleSpawnFlags.All);
