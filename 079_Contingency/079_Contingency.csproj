@@ -8,8 +8,8 @@
         <ProjectGuid>{BB9CC83F-4E37-49E4-B7D6-D0CB3D6DCD1D}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>_079_Contingency</RootNamespace>
-        <AssemblyName>_079_Contingency</AssemblyName>
+        <RootNamespace>Contingency_079</RootNamespace>
+        <AssemblyName>Contingency_079</AssemblyName>
         <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <LangVersion>12</LangVersion>
@@ -34,8 +34,11 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-          <HintPath>..\packages\ExMod.Exiled.9.4.0\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
+        <Reference Include="Assembly-CSharp">
+          <HintPath>..\..\..\..\..\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp-firstpass">
+          <HintPath>..\..\..\..\..\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
         </Reference>
         <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <HintPath>..\packages\ExMod.Exiled.9.4.0\lib\net48\CommandSystem.Core.dll</HintPath>

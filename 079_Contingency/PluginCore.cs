@@ -11,14 +11,12 @@ public class PluginCore : Plugin<Config> {
     public override void OnEnabled() {
         Instance = new PluginCore();
         RegisterEvents();
-        
         base.OnEnabled();
     }
 
     public override void OnDisabled() {
         UnregisterEvents();
         Instance = null;
-        
         base.OnDisabled();
     }
 
