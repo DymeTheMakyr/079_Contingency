@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("DymeTheMakyr")]
-[assembly: AssemblyProduct("_079_Contingency")]
+[assembly: AssemblyProduct("079_Contingency")]
 [assembly: AssemblyCopyright("Copyright © DymeTheMakyr 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
